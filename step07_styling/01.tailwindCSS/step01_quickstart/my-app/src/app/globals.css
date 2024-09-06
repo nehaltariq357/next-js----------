@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.main{
+    @apply flex flex-col items-center bg-gray-300
+}
+
+.img{
+    @apply mx-4 order-last self-center
+}
+
+.div{
+@apply mx-4 self-center text-center
+}
+
+.h1{
+    @apply text-6xl font-bold text-blue-700
+}
+
+h2{
+    @apply text-3xl font-semibold text-blue-300
+}
+
+.btn{
+    @apply my-4 py-4 border-2 border-black rounded-lg text-white bg-blue-900
+}
